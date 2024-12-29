@@ -1,0 +1,18 @@
+{
+	"appId": "tk.funayd.paper-studio",
+	"productName": "Paper Studio",
+	"directories": {
+		"output": "dist"
+	},
+	"files": [
+		"src/electron.mjs",
+		"src/preload.cjs",
+		{
+			"from": "build",
+			"to": "."
+		}
+	],
+	"extraMetadata": {
+		"main": "src/electron.mjs"
+	}
+}
